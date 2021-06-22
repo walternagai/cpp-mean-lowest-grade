@@ -2,6 +2,8 @@
 
 Considere que um aluno de uma disciplina da Unifei tem 5 notas de atividades avaliativas entregues. A política do professor da disciplina é descartar a menor e a maior nota antes de calcular a média com as notas restantes. Conhecendo isso, escreva um programa em linguagem C/C++ que leia as 5 notas de atividades, armazenando-as em um vetor para uma verificação posterior de acordo com a política do professor. Após o descarte da menor e a maior nota, calcule a média das notas restantes. O código da main.cpp já apresenta uma versão inicial do programa, juntamente com alguns comentários nas funções que podem auxiliar no desenvolvimento do programa.
 
+Uma nota **menor que zero** OU **maior que dez** deve ser descartada e não pode ser armazenada no vetor.
+
 Confira se o repositório está criado em alguma das organizações GitHub:
 * [https://github.com/p7-m5-ecoi02-2021-1](https://github.com/p7-m5-ecoi02-2021-1)
 * [https://github.com/p8-m5-ecoi02-2021-1](https://github.com/p8-m5-ecoi02-2021-1)
