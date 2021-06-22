@@ -12,9 +12,6 @@ const int QTDE_NOTAS = 5;
 void leNotas (float notas[QTDE_NOTAS]) {
   for (int i = 0; i < QTDE_NOTAS; i++) {
     cin >> notas[i];
-    while (notas[i] < 0 || notas[i] > 10) {
-      cin >> notas[i];
-    } // fim while
   } // fim for
 }
 
