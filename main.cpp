@@ -18,20 +18,29 @@ void leNotas (float notas[QTDE_NOTAS]) {
 /*
   calculaMedia (notas) : float
   Calcula a média das notas, desconsiderando a menor nota.
+  
+  ALTERE ESSA FUNÇÃO PARA DESCONSIDERAR TAMBÉM A MAIOR NOTA.
+  NÃO É PRECISO CRIAR OUTRA FUNÇÃO PARA DESCONSIDERAR A MAIOR NOTA.
 
   notas: vetor de notas de tamanho QTDE_NOTAS
 */
 float calculaMedia (float notas[QTDE_NOTAS]) {
   float menor, soma;
   soma  = 0;
+  // a menor nota é a primeira
   menor = notas[0];
+  // soma-se a primeira nota
   soma  = soma + notas[0];
   for (int i = 1; i < QTDE_NOTAS; i++) {
+    // se a nota da posição i é menor que está guardada na variável menor
     if (notas[i] < menor)
       menor = notas [i];
+    // adiciona-se a nota da posição i
     soma = soma + notas [i];
   } //fim for
+  // retira da soma, o valor da menor nota
   soma = soma - menor;
+  // divide a soma pela quantidade de notas 
   return soma / (QTDE_NOTAS-1);
 }
 
