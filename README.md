@@ -1,6 +1,6 @@
 # cpp-mean-lowest-greatest-grades
 
-O código da main.cpp já apresenta alguns comentários nas funções que podem auxiliar no desenvolvimento do programa.
+Considere que um aluno de uma disciplina da Unifei tem 5 notas de atividades avaliativas entregues. A política do professor da disciplina é descartar a menor e a maior nota antes de calcular a média com as notas restantes. Conhecendo isso, escreva um programa em linguagem C/C++ que leia as 5 notas de atividades, armazenando-as em um vetor para uma verificação posterior de acordo com a política do professor. Após o descarte da menor e a maior nota, calcule a média das notas restantes. O código da main.cpp já apresenta uma versão inicial do programa, juntamente com alguns comentários nas funções que podem auxiliar no desenvolvimento do programa.
 
 Confira se o repositório está criado em alguma das organizações GitHub:
 * [https://github.com/p7-m5-ecoi02-2021-1](https://github.com/p7-m5-ecoi02-2021-1)
@@ -10,32 +10,22 @@ Veja o **Feeback** no link *Pull requests* para aber se a saída do programa est
 
 ## Exemplos de entrada de dados e a saída esperada
 
-- ENTRADA: 2 5
+- ENTRADA: 2 5 6 7 8
 
-        MDC(2, 5) = 1
-        MMC(2, 5) = 10
-        2 e 5 sao primos.
+        Media = 6
 
-- ENTRADA: 2 8
+- ENTRADA: 2 8 10 7 6
 
-        MDC(2, 8) = 2
-        MMC(2, 8) = 8
-        2 e 8 não sao primos
+        Media = 7
 
-- ENTRADA: 211 19
+- ENTRADA: 1 1 10 10 9
 
-        MDC(211, 19) = 1
-        MMC(211, 19) = 4009
-        211 e 19 sao primos.
+        Media = 6.66667
 
-- ENTRADA: 17 19
+- ENTRADA: -1 2 10 7 6 8 
 
-        MDC(17, 19) = 1
-        MMC(17, 19) = 323
-        17 e 19 sao primos.
+        Media = 7
 
-- ENTRADA: 18 21
+- ENTRADA: 10 10 -1 1 1 9
 
-        MDC(18, 21) = 3
-        MMC(18, 21) = 126
-        18 e 21 não sao primos.
+        Media = 6.66667
