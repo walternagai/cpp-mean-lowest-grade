@@ -1,18 +1,10 @@
-# cpp-mmc-primes-functions
-
-O MDC (Máximo Divisor Comum) é utilizado em diversos algoritmos e aplicações computacionais. O [algoritmo de Euclides](https://pt.wikipedia.org/wiki/Algoritmo_de_Euclides) é a descrição mais simples para calcular o MDC. A implementação desse algoritmo pode ser feita com chamadas sucessivas a mesma função, ou seja, uma função recursiva ou como uma repetição de comandos, sem a necessidade de recursividade.
-
-O MMC ([Mínimo Múltiplo Comum](https://pt.wikipedia.org/wiki/M%C3%ADnimo_m%C3%BAltiplo_comum)) de dois números pode ser calculado a partir do MDC entre esses dois números.
-
-Um número é dito **[primo](https://pt.wikipedia.org/wiki/N%C3%BAmero_primo)** se é divisível por um e por ele mesmo. Em algumas situações computacionais, comparar se dois números são primos, denota que o MDC deles é igual a 1 (um).
-
-Escreva um programa que leia dois números inteiros positivos para calcular o MMC e se ambos são números primos.
+# cpp-mean-lowest-greatest-grades
 
 O código da main.cpp já apresenta alguns comentários nas funções que podem auxiliar no desenvolvimento do programa.
 
 Confira se o repositório está criado em alguma das organizações GitHub:
-* [https://github.com/p7-m4-ecoi02-2021-1](https://github.com/p7-m4-ecoi02-2021-1)
-* [https://github.com/p8-m4-ecoi02-2021-1](https://github.com/p8-m4-ecoi02-2021-1)
+* [https://github.com/p7-m5-ecoi02-2021-1](https://github.com/p7-m5-ecoi02-2021-1)
+* [https://github.com/p8-m5-ecoi02-2021-1](https://github.com/p8-m5-ecoi02-2021-1)
 
 Veja o **Feeback** no link *Pull requests* para aber se a saída do programa está de acordo com o esperado.
 
